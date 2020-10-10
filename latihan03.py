@@ -8,7 +8,6 @@ nama = input("Hallo... nama saya Mr. Kompie, nama Anda siapa? ")
 # tampilkan nama user
 print("Oh.. nama Anda", nama , ", nama yang bagus sekali.")
 
-
 # kasih jeda 3 detik
 time.sleep(3)
 
