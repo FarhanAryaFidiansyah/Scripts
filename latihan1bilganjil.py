@@ -1,5 +1,2 @@
-i = 1
-n = 0
-while i < 100:
+for i in range (1, 100, 2):
     print(i)
-    i += 2
