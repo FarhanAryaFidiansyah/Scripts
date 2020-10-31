@@ -1,8 +1,9 @@
-i = 1
-n = 0
-while i < 100:
+sum = 0
+bil = 0
+for i in range(1, 100, 2):
     print(i)
-    i += 2
-    n += 1
-print("Banyaknya bilangan ganjil:", n)
-print("Jumlah bilangan ganjil:", n / 2 * 100)
+    bil += 1
+    suku = i
+    sum = sum + suku
+print("Banyaknya bilangan ganjil: " + str(bil))
+print("Jumlah seluruh bilangan: " + str(sum))

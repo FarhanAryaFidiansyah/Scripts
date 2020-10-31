@@ -1,7 +1,6 @@
-i = 1
-n = 0
-while i < 100:
+bil = 0
+for i in range(1, 100, 2):
     print(i)
-    i += 2
-    n += 1
-print("Banyakknya bilangan ganjil:", n)
+    bil += 1
+print("Banyaknya bilangan ganjil: " + str(bil))
+
