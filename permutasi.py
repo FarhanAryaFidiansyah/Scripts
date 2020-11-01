@@ -6,5 +6,3 @@ def faktorial(n):
 
 def permutasi(a, b):
     return faktorial(a) / faktorial(a - b)
-
-print(permutasi(3, 2))
