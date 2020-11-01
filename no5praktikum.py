@@ -20,9 +20,6 @@ def bagi(a, b):
     hasil = a / b
     return hasil
 
-a = 10
-b = 7
-
 # a.    2 + 4 * 6 – 4
 print(kali(4, 6) + kurang(2, 4))
 
