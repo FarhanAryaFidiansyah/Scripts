@@ -4,7 +4,7 @@ def isPythagoras(a, b, c):
     else:
         print("False")
 
-isPythagoras(15, 36, 39)
+
         
 
 
