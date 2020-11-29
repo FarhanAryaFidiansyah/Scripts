@@ -1,0 +1,5 @@
+filenya = input("Masukkan nama file :")
+file = open(filenya, "r")
+print("Isi filenya", filenya, "adalah")
+print("")
+print(file.read())
