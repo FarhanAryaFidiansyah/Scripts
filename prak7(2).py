@@ -9,5 +9,3 @@ while lagi == "y":
     lagi = input("Mau lagi (y/n):")
     if lagi == "n":    
         file.close()
-if lagi == "n"
-    file.close()
