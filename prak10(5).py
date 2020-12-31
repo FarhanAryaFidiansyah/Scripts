@@ -14,4 +14,6 @@ n = 0
 for m in dataangka:    
     hasil = dataangka[n][0] + dataangka[n][1]
     n += 1
-    print(hasil)
+    k = open('d:/hasildaripenjumlahan.txt', "a")
+    k.write(str(hasil))
+    k.write("\n")
