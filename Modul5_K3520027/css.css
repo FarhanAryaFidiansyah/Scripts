@@ -1,0 +1,40 @@
+ul {
+    overflow: hidden;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: grey;
+}
+
+img {
+    height:254px;
+    width: 172px;
+}
+
+.kotak{
+    padding: 20px;
+    width: fit-content;
+    color: white;
+    margin: 10px;
+    background: black;
+}
+
+body {
+    background-image: url(uns.jpg);
+}
