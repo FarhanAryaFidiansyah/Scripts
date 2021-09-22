@@ -31,7 +31,7 @@ public class OperasiBilangan {
     }
     
     public void hitungPembagian(){
-        int hasil = bilPertama / bilKedua;
+        double hasil = (double) bilPertama / bilKedua;
         System.out.println("Hasil pembagiannya: " + hasil);
     }
 
