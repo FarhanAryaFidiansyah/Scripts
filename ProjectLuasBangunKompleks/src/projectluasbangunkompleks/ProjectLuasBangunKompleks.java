@@ -33,8 +33,7 @@ public class ProjectLuasBangunKompleks {
         
         Lingkaran D = new Lingkaran();
         D.r = 7;
-        
-        double hasilProject2 = C.hitungLuasLingkaran() - 2 * D.hitungLuasLingkaran();
+        double hasilProject2 = (C.hitungLuasLingkaran() / 2)  - (D.hitungLuasLingkaran());
         System.out.println("Total luas Bangun Datar pada Project 2 adalah : " + hasilProject2);
     }
 }
