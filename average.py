@@ -11,3 +11,5 @@ def average(*angka2):
 
 
 
+
+
